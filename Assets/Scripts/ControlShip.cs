@@ -37,7 +37,7 @@ public class ControlShip : MonoBehaviour
     }
     public void ButtonFireStart()
     {
-        if (isFireReloadReady) Fire();//либо отзонить, либо переделать
+        if (isFireReloadReady) Fire();//либо переделать, либо отзонить кнопки
     }
     public void Fire()
     {
